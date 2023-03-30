@@ -4,6 +4,12 @@ Google Colab is a cloud-based platform that allows users to write, run, and shar
 
 As a cloud computing platform based on Jupyter notebooks, Google Colab does not provide a top-notch comfortable environment for R language data analysis and other non-Python programming. Therefore, this project provides a method for quickly installing other web IDE on Google Colab, enabling it to expand its range of capabilities.
 
+## Usage
+
+To get started, open the notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yimingsun12138/IDE_on_Colab/blob/main/Web_IDE_on_Colab.ipynb) and select the web IDE that you prefer. Once you have made your selection, complete the global setting and let me take care of the rest. If you opt for using the localtunnel, upon completion of the process, a URL will be provided that can be used to access your web IDE.
+
+You can also use the notebooks with more features provided for each web IDE in the section below.
+
 ## Web IDE supported
 
 ### Rstudio server
