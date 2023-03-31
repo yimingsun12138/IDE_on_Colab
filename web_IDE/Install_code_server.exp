@@ -8,6 +8,10 @@ set code_server_password [lindex $argv 3]
 
 spawn su $user_name
 expect "\\\$"
+send "mkdir /tmp/Install_code_server\r"
+expect "\\\$"
+send "cd /tmp/Install_code_server\r"
+expect "\\\$"
 
 # install code server
 send "curl -fsSL https://code-server.dev/install.sh | sh\r"
