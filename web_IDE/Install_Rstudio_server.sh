@@ -10,7 +10,7 @@ wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-2023.03.0-
 gdebi -n rstudio-server-2023.03.0-386-amd64.deb
 
 # config Rstudio server port
-temp_var = "www-port=$1"
+temp_var="www-port=$1"
 echo $temp_var > /etc/rstudio/rserver.conf
 
 # restart Rstudio server
