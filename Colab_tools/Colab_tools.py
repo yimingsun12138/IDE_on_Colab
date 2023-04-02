@@ -1,3 +1,13 @@
+'''
+Useful tools for Google Colab.
+'''
+
+# import module
+import os
+import sys
+import subprocess
+
+# Colab IDE tools
 class Colab_IDE:
   def __init__(self,IDE,tunnelling,name,password,mount_GD):
     self.IDE = IDE
